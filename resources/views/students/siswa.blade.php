@@ -7,8 +7,8 @@
         <div class="row">
             <div style="width: 100%;">
                 <div class="card">
-                <div class="card-header bg-primary text-white">
-    <h4 class="mb-0">Manage Data Siswa</h4>
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Manage Data Santri</h4>
                     </div>
                     <div class="card-body">
                         <div class="d-flex justify-content-between mb-3">
@@ -93,7 +93,7 @@
 
 <script>
     // Optional: Hapus tombol tutup modal ketika modal ditutup
-    $('#tambahDataModal').on('hidden.bs.modal', function () {
+    $('#tambahDataModal').on('hidden.bs.modal', function() {
         // Reset form jika diperlukan
         $(this).find('form')[0].reset();
     });
